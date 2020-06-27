@@ -2,7 +2,6 @@ import { NgModule } from '@angular/core';
 import { IonicPageModule } from 'ionic-angular';
 
 import { PageOne } from './page-one';
-import { MockProvider } from '../../pages/about/provider';
 
 @NgModule({
   declarations: [
@@ -15,7 +14,7 @@ import { MockProvider } from '../../pages/about/provider';
     PageOne,
   ],
   providers: [
-    MockProvider
+//    MockProvider
   ]
 })
 export class PageOneModule {}

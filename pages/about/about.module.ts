@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { IonicPageModule, Refresher } from 'ionic-angular';
-import { MockProvider } from './provider';
 
 import { AboutPage } from './about';
 
@@ -19,7 +18,3 @@ import { AboutPage } from './about';
   ]
 })
 export class AboutPageModule {}
-
-/* 
-
-*/

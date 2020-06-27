@@ -1,8 +1,6 @@
 import { NgModule, ErrorHandler } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
-// import firebase from 'firebase/app';
-// import { AngularFireAuth } from 'angularfire2/auth';
 
 import { MyApp } from './app.component';
 

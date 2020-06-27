@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
-import { NavController, ToastController, Refresher } from 'ionic-angular';
-import { MockProvider } from './provider';
+import { NavController, ToastController } from 'ionic-angular';
 
 let pageNum = 1;
 
