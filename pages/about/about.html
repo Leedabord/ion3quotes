@@ -1,0 +1,24 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title> About Page {{pageNum}}</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+
+  <button ion-button block (click)="push()">Push Another Page</button>
+  <button ion-button color="secondary" block (click)="pop()">Pop This Page</button>
+<h4> </h4>
+    <button ion-button block (click)="showToast('bottom')">Show Toast Bottom Position</button>
+  <button ion-button block (click)="showToast('top')">Show Toast Top Position</button>
+  <button ion-button block (click)="showToast('middle')">Show Toast Middle Position</button>
+  <button ion-button block margin-bottom (click)="showLongToast()">Show Long Toast</button>
+
+<h4> </h4>
+  <button ion-button block (click)="showDismissDurationToast()">Show Custom Duration Toast</button>
+  <button ion-button block (click)="showToastWithCloseButton()">Show Close Button Toast</button>
+
+
+</ion-content>
